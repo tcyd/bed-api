@@ -1,0 +1,38 @@
+{
+  "name": "void-api",
+  "version": "1.0.0",
+  "description": "scaffolding for website development",
+  "main": "app.js",
+  "keywords": [
+    "koa"
+  ],
+  "author": "xujun",
+  "license": "ISC",
+  "scripts": {
+    "dev": "gulp",
+    "start": "pm2 startOrRestart deploy.json",
+    "stop": "pm2 delete all && pm2 updatePM2"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "dotenv": "^1.2.0",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.3.0",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xujun60/void-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xujun60/void-api/issues"
+  },
+  "homepage": "https://github.com/xujun60/void-api#readme"
+}
